@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap");
+
+:root {
+  /* ### Primary */
+
+  --dark-red: hsl(0, 100%, 68%);
+
+  /* ### Neutral */
+
+  --midnight-express: hsl(230, 29%, 20%);
+  --comet: hsl(230, 11%, 40%);
+  --logan: hsl(231, 7%, 65%);
+  --solitude: hsl(207, 33%, 95%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
 }
